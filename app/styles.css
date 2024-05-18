@@ -1,0 +1,80 @@
+.ai-img-gen{
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    gap: 30px;
+
+}
+.header{
+    font-size: 70px;
+    font-weight: 500;
+    padding: 5px;
+    color: aliceblue;
+    word-wrap: auto;
+
+}
+.header span{
+    color:rgba(170, 0, 255, 0.999);
+    font-weight: 600;
+}
+.img-loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-loading img{
+    
+    width: 512px;
+    margin-bottom: 27px;
+    border-radius: 7%;
+    
+    
+}
+
+.search-box{
+    display: flex;
+    width: 520px;
+    height: 50px;
+    justify-content: space-around;
+    border-radius: 50px;
+    align-items: center;
+    background-color: #1f3540;
+
+}
+.search-input{
+    width: 300px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding:17px;
+}
+.search-input::placeholder{
+    color: #999;
+    
+}
+.form{
+    padding:17px;
+}
+.gen-btn{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    text-align: center;
+    
+    background-color: rgba(170, 0, 255, 0.999);
+    cursor: pointer;
+}
+
